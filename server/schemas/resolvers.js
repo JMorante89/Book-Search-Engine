@@ -26,12 +26,12 @@ const resolvers = {
             const token = signToken(user);
             return {token, user};
         },
-        addUser: async (parent, args) => {
-            const user = await User.create(args);
+        addUser: async (parent, { username, email, password }) => {
+            const user = await User.create({ username, email, password });
             const token = signToken(user);
             return {token, user};
         },
-        saveBook: async (parent, {bookData}, context) => {
+        saveBook: async (parent, bookData, context) => {
             if(context.user) {
                 const updatedUser = await User.findByIdAndUpdate(
                     {_id: context.user._id},

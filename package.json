@@ -16,6 +16,8 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "@apollo/client": "^3.8.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.2.0"
   }
 }
