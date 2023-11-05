@@ -29,9 +29,7 @@ The provided URL will redirect users to a user-friendly website, obviating the n
 
 
 ## Features🎁
-    -Easy UI to follow  
-    -Contact Me options are readily available for easy communication 
-    -All projects and contact links are live to learn more about me
+    -Easy UI to follow
 
  ## Credits📣
 - Daniel Morante 
